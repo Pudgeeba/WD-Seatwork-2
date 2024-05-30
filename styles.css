@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('assets/img/PAINT BG.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background: rgb(255, 255, 255);
+}
+
+.logo-img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+}
+
+.company-name-img { 
+    width: 150px; 
+    height: auto;
+}
+
+.container {
+    display: flex;
+    padding: 10px;
+}
+
+.employee-photo {
+    width: 230px;
+    height: auto;
+    border: 5px solid rgb(184, 122, 241); 
+    margin-right: 20px;
+    box-sizing: border-box; /* Ensures the border is included in the element's total width */
+}
+
+.info {
+    flex-grow: 1;
+}
+
+.description {
+    margin-top: 20px;
+    background: rgba(255, 255, 255, 0.568);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+hr { 
+    border: 0; 
+    border-top: 5px solid rgb(0, 204, 255); 
+}
